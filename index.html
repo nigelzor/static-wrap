@@ -199,6 +199,9 @@
 		border-color: darkturquoise;
 		color: #333;
 	}
+	#drop * {
+		pointer-events: none;
+	}
 	#output {
 		text-align: center;
 		min-height: 10em;
@@ -247,7 +250,7 @@
 	<ul id="settings">
 		<li>
 			<p>(drag &amp; drop an image)</p>
-			<div id="drop">&#8681;</div>
+			<div id="drop"><span>&#8681;</span></div>
 		</li>
 	</ul>
 	<div id="output">
